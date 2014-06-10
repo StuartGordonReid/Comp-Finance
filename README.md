@@ -4,14 +4,14 @@ Comp-Finance
 This repository in a mix of existing Python-based tools for Computational Finance and custom developed classes. It is related to the Computational Finance blog written by Stuart Reid (www.stuartreid.co.za/blog).
 
 Current Features
-================
+----------------
 
 * Integration with Quandl for financial datasets - Quandl
 * Simple linear regression analysis - StatsModels
 
 
 Planned Features
-================
+----------------
 
 * Multiple linear regression - StatsModels
 * Complex non-linear regression - StatsModels

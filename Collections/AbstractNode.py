@@ -14,12 +14,12 @@ class AbstractNode:
     by methods next(), left(), and right() when implementing linked-lists, queues, stacks, and trees.
     """
 
-    children = []
-    data = None
+    __children__ = []
+    __data__ = None
 
     def __init__(self, data=None):
-        self.children = [None, None, None]
-        self.data = data
+        self.__children__ = [None, None, None, None]
+        self.__data__ = data
         pass
 
     # Generic getter and setter methods used to index the children array
@@ -30,7 +30,7 @@ class AbstractNode:
         :param index: index of the item in children to be returned
         :return: returns the AbstractNode at the index specific, could be None
         """
-        return self.children[index]
+        return self.__children__[index]
 
     def set(self, index, value):
         """
@@ -38,26 +38,40 @@ class AbstractNode:
         :param index: index of the item in children to be updated
         :param value: An Abstract Node to overwrite the value of children[index]
         """
-        self.children[index] = value
+        self.__children__[index] = value
 
     # Definition of the get_next() and set_next() methods for binary structures
 
     def get_next(self):
         return self.get(0)
 
-    def set_next(self, data):
-        self.set(0, data)
+    def set_next(self, new_abstract_node):
+        self.set(0, new_abstract_node)
+
+    def get_prev(self):
+        return self.get(1)
+
+    def set_prev(self, new_abstract_node):
+        self.set(1, new_abstract_node)
 
     # Definition of the get_left(), get_right() and set_left(), set_right methods for binary structures
 
     def get_left(self):
-        return self.get(1)
-
-    def set_left(self, data):
-        self.set(1, data)
-
-    def get_right(self):
         return self.get(2)
 
-    def set_right(self, data):
-        self.set(2, data)
+    def set_left(self, new_abstract_node):
+        self.set(2, new_abstract_node)
+
+    def get_right(self):
+        return self.get(3)
+
+    def set_right(self, new_abstract_node):
+        self.set(3, new_abstract_node)
+
+    # For setting this object's data
+
+    def get_data(self):
+        return self.__data__
+
+    def set_data(self, data):
+        self.__data__ = data

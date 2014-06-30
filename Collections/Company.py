@@ -6,10 +6,10 @@ __website__ = 'http://www.stuartreid.co.za'
 File description
 """
 
-import Node
+import AbstractNode
 
 
-class Company(Node):
+class Company(AbstractNode):
     """
 
     """

@@ -111,6 +111,7 @@ class LinkedList():
         #Error if no case satisfied
         else:
             print("Invalid argument: remove ", index)
+            return None
 
     def print_list(self):
         list_output = "Size = " + str(self.size) + " {"

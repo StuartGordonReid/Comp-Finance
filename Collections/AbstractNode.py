@@ -16,10 +16,13 @@ class AbstractNode:
 
     __children__ = []
     __data__ = None
+    __size__ = 0
+    __count__ = 0
 
     def __init__(self, data=None):
-        self.__children__ = [None, None, None, None]
+        self.__children__ = []
         self.__data__ = data
+        self.__size__ = 0
         pass
 
     # Generic getter and setter methods used to index the children array
@@ -30,7 +33,10 @@ class AbstractNode:
         :param index: index of the item in children to be returned
         :return: returns the AbstractNode at the index specific, could be None
         """
-        return self.__children__[index]
+        if index < self.__size__:
+            return self.__children__[index]
+        else:
+            return None
 
     def set(self, index, value):
         """
@@ -38,7 +44,13 @@ class AbstractNode:
         :param index: index of the item in children to be updated
         :param value: An Abstract Node to overwrite the value of children[index]
         """
-        self.__children__[index] = value
+        if (index + 1) > self.__size__:
+            for i in range((index + 1) - self.__size__):
+                self.__children__.append(None)
+                self.__size__ += 1
+            self.__children__[index] = value
+        else:
+            self.__children__[index] = value
 
     # Definition of the get_next() and set_next() methods for binary structures
 
@@ -75,3 +87,30 @@ class AbstractNode:
 
     def set_data(self, data):
         self.__data__ = data
+
+    def increment(self):
+        self.__count__ += 1
+
+
+if __name__ == "__main__":
+    # Testing method
+    my_node = AbstractNode()
+    print(len(my_node.__children__))
+
+    my_node.set_next(AbstractNode())
+    print(len(my_node.__children__))
+
+    my_node.set_next(AbstractNode())
+    print(len(my_node.__children__))
+
+    my_node.set_prev(AbstractNode())
+    print(len(my_node.__children__))
+
+    my_node.set_left(AbstractNode())
+    print(len(my_node.__children__))
+
+    my_node.set_right(AbstractNode())
+    print(len(my_node.__children__))
+
+    my_node.set_right(AbstractNode())
+    print(len(my_node.__children__))

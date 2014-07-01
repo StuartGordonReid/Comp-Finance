@@ -54,9 +54,16 @@ class Tree():
                     curr_node.increment()
                     self.size += 1
                     break
-            pass
 
     def remove(self, data):
+        if self.size == 0:
+            return
+        elif data == self.head.get_data():
+            self.head = None
+        else:
+            pass
+
+    def __remove__(self, curr_node, data):
         pass
 
     def print_tree(self):
@@ -64,13 +71,17 @@ class Tree():
 
     def __print_tree__(self, node, prefix):
         if node is not None:
-            print prefix, "+-", node.get_data()
+            count = node.get_count()
+            if count == 1:
+                print prefix, "+-", node.get_data()
+            else:
+                print prefix, "+-", node.get_data(), "x", count
             self.__print_tree__(node.get_left(), prefix + " | ")
             self.__print_tree__(node.get_right(), prefix + " | ")
 
 
 if __name__ == "__main__":
     my_tree = Tree()
-    for i in range(30):
+    for i in range(15):
         my_tree.add(random.randint(0, 15))
     my_tree.print_tree()

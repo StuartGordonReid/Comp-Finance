@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8160abd-1fb5-4b1b-b606-4ac8fa86cb81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Tree.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/AbstractNode.py" afterPath="$PROJECT_DIR$/Collections/AbstractNode.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/LinkedList.py" afterPath="$PROJECT_DIR$/Collections/LinkedList.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Tree.py" afterPath="$PROJECT_DIR$/Collections/Tree.py" />
     </list>
     <ignored path="Comp-Finance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +29,7 @@
       <file leaf-file-name="AbstractNode.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections/AbstractNode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="2178">
+            <state line="92" column="0" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="2286">
               <folding />
             </state>
           </provider>
@@ -40,7 +38,7 @@
       <file leaf-file-name="Tree.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Collections/Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="23" selection-start="429" selection-end="429" vertical-scroll-proportion="-0.7058824" vertical-offset="810" max-vertical-offset="1476">
+            <state line="62" column="13" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.14705883" vertical-offset="1026" max-vertical-offset="1674">
               <folding>
                 <element signature="e#199#236#0" expanded="true" />
               </folding>
@@ -89,7 +87,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="51" />
-    <option name="y" value="24" />
+    <option name="y" value="-1056" />
     <option name="width" value="1869" />
     <option name="height" value="1056" />
   </component>
@@ -480,7 +478,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="24" width="1869" height="1056" extended-state="6" />
+    <frame x="51" y="-1056" width="1869" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -491,7 +489,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -794,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/AbstractNode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="2178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Collections/LinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="136" column="0" selection-start="4004" selection-end="4030" vertical-scroll-proportion="-3.1142857" vertical-offset="2339" max-vertical-offset="2916">
@@ -808,9 +799,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/AbstractNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="2286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="429" selection-end="429" vertical-scroll-proportion="-0.7058824" vertical-offset="810" max-vertical-offset="1476">
+        <state line="62" column="13" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.14705883" vertical-offset="1026" max-vertical-offset="1674">
           <folding>
             <element signature="e#199#236#0" expanded="true" />
           </folding>

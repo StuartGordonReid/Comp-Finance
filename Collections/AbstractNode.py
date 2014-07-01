@@ -91,6 +91,12 @@ class AbstractNode:
     def increment(self):
         self.__count__ += 1
 
+    def decrement(self):
+        self.__count__ -= 1
+
+    def get_count(self):
+        return self.__count__ + 1
+
 
 if __name__ == "__main__":
     # Testing method

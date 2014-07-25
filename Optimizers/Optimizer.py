@@ -46,7 +46,7 @@ class Optimizer(object):
 
 class Solution(object):
     __metaclass__ = abc.ABCMeta
-    solution = np.array(0)
+    solution = []
 
     @abc.abstractmethod
     def __init__(self, solution):

@@ -14,14 +14,18 @@ from Optimizers.Optimizer import Solution
 class Function(object):
     __metaclass__ = abc.ABCMeta
     dimension = 0
+    upper_bound = float("+inf")
+    lower_bound = float("-inf")
 
     @abc.abstractmethod
-    def __init__(self, dimension):
+    def __init__(self, dimension, upper_bound=float("+inf"), lower_bound=float("-inf")):
         """
         This method should be overloaded and used to initialize the problem
         :param dimension: the dimension on the problem
         """
         self.dimension = dimension
+        self.upper_bound = upper_bound
+        self.lower_bound = lower_bound
         return
 
     @abc.abstractmethod

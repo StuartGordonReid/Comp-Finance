@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8160abd-1fb5-4b1b-b606-4ac8fa86cb81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functions/Ackley.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functions/Cigar.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functions/Function.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Optimizers/Optimizer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functions/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Optimizers/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Tree.py" afterPath="$PROJECT_DIR$/Collections/Tree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/stuartreid.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/stuartreid.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/Function.py" afterPath="$PROJECT_DIR$/Functions/Function.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/Optimizer.py" afterPath="$PROJECT_DIR$/Optimizers/Optimizer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Comp-Finance.iws" />
@@ -58,9 +51,20 @@
       <file leaf-file-name="Optimizer.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Optimizers/Optimizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="82" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+            <state line="60" column="22" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="1512">
               <folding>
                 <element signature="e#146#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParticleSwarm.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.34051725" vertical-offset="206" max-vertical-offset="1134">
+              <folding>
+                <element signature="e#146#188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,47 +73,18 @@
       <file leaf-file-name="Function.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functions/Function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="54" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cigar.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="0" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="34" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
               <folding>
-                <marker date="1406313381291" expanded="true" signature="210:706" placeholder="..." />
-                <marker date="1406313381291" expanded="true" signature="246:293" placeholder="..." />
-                <marker date="1406313381291" expanded="true" signature="329:706" placeholder="..." />
+                <element signature="e#368#378#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ackley.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Ackley.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functions/Ackley.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="576" selection-end="576" vertical-scroll-proportion="0.4073276" vertical-offset="0" max-vertical-offset="928">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Queue.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/Queue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="13" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1242">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/LinkedList.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="0" selection-start="4004" selection-end="4030" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2916">
+            <state line="19" column="11" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
               <folding />
             </state>
           </provider>
@@ -142,10 +117,11 @@
         <option value="$PROJECT_DIR$/Collections/LinkedList.py" />
         <option value="$PROJECT_DIR$/Collections/AbstractNode.py" />
         <option value="$PROJECT_DIR$/Collections/Tree.py" />
-        <option value="$PROJECT_DIR$/Optimizers/Optimizer.py" />
         <option value="$PROJECT_DIR$/Functions/Cigar.py" />
-        <option value="$PROJECT_DIR$/Functions/Function.py" />
         <option value="$PROJECT_DIR$/Functions/Ackley.py" />
+        <option value="$PROJECT_DIR$/Functions/Function.py" />
+        <option value="$PROJECT_DIR$/Optimizers/Optimizer.py" />
+        <option value="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
       </list>
     </option>
   </component>
@@ -633,13 +609,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Collections/LinkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="4004" selection-end="4030" vertical-scroll-proportion="0.0" vertical-offset="2339" max-vertical-offset="2916">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Collections/AbstractNode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="32" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
@@ -862,9 +831,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/LaTeX Functions.aux">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="928">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/LinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="4004" selection-end="4030" vertical-scroll-proportion="0.49568966" vertical-offset="1988" max-vertical-offset="2916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1242">
+        <state line="29" column="13" selection-start="652" selection-end="652" vertical-scroll-proportion="0.42672414" vertical-offset="126" max-vertical-offset="1242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="0" selection-end="707" vertical-scroll-proportion="0.23275863" vertical-offset="0" max-vertical-offset="928">
           <folding />
         </state>
       </provider>
@@ -878,51 +868,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/LinkedList.py">
+    <entry file="file://$PROJECT_DIR$/Functions/Function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="4004" selection-end="4030" vertical-scroll-proportion="0.0" vertical-offset="2339" max-vertical-offset="2916">
-          <folding />
+        <state line="34" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding>
+            <element signature="e#368#378#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/LaTeX Functions.aux">
+    <entry file="file://$PROJECT_DIR$/Functions/Ackley.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="928">
+        <state line="19" column="11" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Optimizers/Optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="82" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+        <state line="60" column="22" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="1512">
           <folding>
             <element signature="e#146#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
+    <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="0" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="29" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.34051725" vertical-offset="206" max-vertical-offset="1134">
           <folding>
-            <marker date="1406313381291" expanded="true" signature="210:706" placeholder="..." />
-            <marker date="1406313381291" expanded="true" signature="246:293" placeholder="..." />
-            <marker date="1406313381291" expanded="true" signature="329:706" placeholder="..." />
+            <element signature="e#146#188#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Ackley.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="576" selection-end="576" vertical-scroll-proportion="0.4073276" vertical-offset="0" max-vertical-offset="928">
-          <folding />
         </state>
       </provider>
     </entry>

@@ -8,6 +8,7 @@ which can be found here: http://www-optima.amp.i.kyoto-u.ac.jp/member/student/he
 """
 
 import abc
+from Optimizers.Optimizer import Solution
 
 
 class Function(object):
@@ -29,4 +30,5 @@ class Function(object):
         This method should be overloaded and used to evaluate a candidate solution to the problem
         :param candidate: the candidate solution to the problem
         """
+        assert isinstance(candidate, Solution)
         return

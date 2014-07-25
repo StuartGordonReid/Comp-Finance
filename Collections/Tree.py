@@ -25,6 +25,7 @@ class Tree():
         pass
 
     def add(self, data):
+        #Tree is empty
         if self.size == 0:
             self.head = AbstractNode(data)
             self.size += 1
@@ -56,6 +57,8 @@ class Tree():
                     break
 
     def remove(self, data):
+        #TODO: Finish this method
+        #Tree is empty
         if self.size == 0:
             return
         elif data == self.head.get_data():

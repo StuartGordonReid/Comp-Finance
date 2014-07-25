@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8160abd-1fb5-4b1b-b606-4ac8fa86cb81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/AbstractNode.py" afterPath="$PROJECT_DIR$/Collections/AbstractNode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functions/Ackley.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functions/Cigar.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functions/Function.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Optimizers/Optimizer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functions/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Optimizers/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Tree.py" afterPath="$PROJECT_DIR$/Collections/Tree.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/stuartreid.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/stuartreid.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Comp-Finance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tree.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Tree.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections/Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="13" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.14705883" vertical-offset="1026" max-vertical-offset="1674">
+            <state line="21" column="0" selection-start="406" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="1728">
               <folding>
                 <element signature="e#199#236#0" expanded="true" />
               </folding>
@@ -46,10 +55,61 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Optimizer.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Optimizers/Optimizer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="82" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+              <folding>
+                <element signature="e#146#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Function.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/Function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="54" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cigar.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="0" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <folding>
+                <marker date="1406313381291" expanded="true" signature="210:706" placeholder="..." />
+                <marker date="1406313381291" expanded="true" signature="246:293" placeholder="..." />
+                <marker date="1406313381291" expanded="true" signature="329:706" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ackley.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Functions/Ackley.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="21" selection-start="576" selection-end="576" vertical-scroll-proportion="0.4073276" vertical-offset="0" max-vertical-offset="928">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/Queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="13" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1242">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LinkedList.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections/LinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="0" selection-start="4004" selection-end="4030" vertical-scroll-proportion="-3.1142857" vertical-offset="2339" max-vertical-offset="2916">
+            <state line="136" column="0" selection-start="4004" selection-end="4030" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2916">
               <folding />
             </state>
           </provider>
@@ -82,6 +142,10 @@
         <option value="$PROJECT_DIR$/Collections/LinkedList.py" />
         <option value="$PROJECT_DIR$/Collections/AbstractNode.py" />
         <option value="$PROJECT_DIR$/Collections/Tree.py" />
+        <option value="$PROJECT_DIR$/Optimizers/Optimizer.py" />
+        <option value="$PROJECT_DIR$/Functions/Cigar.py" />
+        <option value="$PROJECT_DIR$/Functions/Function.py" />
+        <option value="$PROJECT_DIR$/Functions/Ackley.py" />
       </list>
     </option>
   </component>
@@ -90,6 +154,25 @@
     <option name="y" value="-1056" />
     <option name="width" value="1869" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -117,7 +200,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -174,6 +256,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Optimizers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Comp-Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Comp-Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Functions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Comp-Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Comp-Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -194,6 +304,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -489,16 +600,16 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -522,6 +633,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Collections/LinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="4004" selection-end="4030" vertical-scroll-proportion="0.0" vertical-offset="2339" max-vertical-offset="2916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Collections/AbstractNode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="32" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
@@ -545,37 +663,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Stack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="1242">
-          <folding />
-        </state>
+        <state line="4" column="3" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="1242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/QuandlController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1386">
-          <folding />
-        </state>
+        <state line="9" column="27" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/RegressionController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1350">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/Examples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="3200" selection-end="3308" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="1332">
-          <folding />
-        </state>
+        <state line="62" column="0" selection-start="3200" selection-end="3308" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="1332" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Company.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/AbstractNode.py">
@@ -594,16 +702,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Company.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="504">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/RegressionController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1350">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/SimplePlotter.py">
@@ -613,9 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/Examples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="51" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1332">
-          <folding />
-        </state>
+        <state line="46" column="51" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1332" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/__init__.py">
@@ -630,16 +732,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/QuandlController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1386">
-          <folding />
-        </state>
+        <state line="9" column="27" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/RegressionController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1350">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/SimplePlotter.py">
@@ -649,9 +747,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/Examples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="51" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1332">
-          <folding />
-        </state>
+        <state line="46" column="51" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1332" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/__init__.py">
@@ -666,16 +762,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/QuandlController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1386">
-          <folding />
-        </state>
+        <state line="9" column="27" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/RegressionController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
-          <folding />
-        </state>
+        <state line="5" column="28" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Visualization/SimplePlotter.py">
@@ -685,9 +777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/Examples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="54" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1332">
-          <folding />
-        </state>
+        <state line="13" column="54" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1332" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/__init__.py">
@@ -702,30 +792,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/QuandlController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1386">
-          <folding />
-        </state>
+        <state line="9" column="27" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/RegressionController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="55" selection-start="4385" selection-end="4385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3042">
-          <folding />
-        </state>
+        <state line="110" column="55" selection-start="4385" selection-end="4385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3042" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/QuandlController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="64" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1386">
-          <folding />
-        </state>
+        <state line="13" column="64" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/RegressionController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="3492">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="3492" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/__init__.py">
@@ -745,58 +827,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Company.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/RegressionController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1350">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/QuandlController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386">
-          <folding />
-        </state>
+        <state line="9" column="27" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RegressionAnalysis/Examples.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="3200" selection-end="3308" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1260">
-          <folding />
-        </state>
+        <state line="62" column="0" selection-start="3200" selection-end="3308" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1260" />
       </provider>
     </entry>
     <entry file="file:///usr/lib/python2.7/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="0" selection-start="8091" selection-end="8091" vertical-scroll-proportion="0.33333334" vertical-offset="3540" max-vertical-offset="16272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/Queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="0" selection-end="1470" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
-          <folding />
-        </state>
+        <state line="215" column="0" selection-start="8091" selection-end="8091" vertical-scroll-proportion="0.33333334" vertical-offset="3540" max-vertical-offset="16272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Stack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/LinkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="4004" selection-end="4030" vertical-scroll-proportion="-3.1142857" vertical-offset="2339" max-vertical-offset="2916">
-          <folding />
-        </state>
+        <state line="4" column="3" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/AbstractNode.py">
@@ -806,12 +862,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/Queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="13" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.14705883" vertical-offset="1026" max-vertical-offset="1674">
+        <state line="21" column="0" selection-start="406" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="1728">
           <folding>
             <element signature="e#199#236#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/LinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="4004" selection-end="4030" vertical-scroll-proportion="0.0" vertical-offset="2339" max-vertical-offset="2916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/LaTeX Functions.aux">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="928">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimizers/Optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="82" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding>
+            <element signature="e#146#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="0" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding>
+            <marker date="1406313381291" expanded="true" signature="210:706" placeholder="..." />
+            <marker date="1406313381291" expanded="true" signature="246:293" placeholder="..." />
+            <marker date="1406313381291" expanded="true" signature="329:706" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="54" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Ackley.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="21" selection-start="576" selection-end="576" vertical-scroll-proportion="0.4073276" vertical-offset="0" max-vertical-offset="928">
+          <folding />
         </state>
       </provider>
     </entry>

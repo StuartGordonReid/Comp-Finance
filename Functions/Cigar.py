@@ -22,6 +22,21 @@ class Cigar(Function):
             value = 0
             for i in range(0, self.dimension):
                 value += candidate[i] ** 2
+                #ToDo: move this out into the Abstract base class and force call
+                if candidate[i] > self.upper_bound:
+                    if self.optimization is "min":
+                        value = float("+inf")
+                        break
+                    elif self.optimization is "max":
+                        value = float("-inf")
+                        break
+                if candidate[i] < self.lower_bound:
+                    if self.optimization is "min":
+                        value = float("+inf")
+                        break
+                    elif self.optimization is "max":
+                        value = float("-inf")
+                        break
             return value
         else:
             raise Exception("Error candidate solution != dimension")

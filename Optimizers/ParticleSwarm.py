@@ -37,6 +37,7 @@ class ParticleSwarm(Optimizer):
         #Initialize each particle
         for i in range(parameters[3]):
             velocities = [0] * problem.dimension
+            #ToDo: there are some issues with this Pythonic code sigh!
             random_solution = random.sample(xrange(problem.lower_bound, problem.upper_bound), problem.dimension)
             self.swarm.append(Particle(random_solution, random_solution, velocities))
 
@@ -115,7 +116,7 @@ class Particle(Solution, AbstractNode):
 
 
 def pso_test():
-    problem = Cigar(50, 100, -100)
+    problem = Cigar(50, 25, -25)
     pso = ParticleSwarm(problem)
     pso.optimize()
 

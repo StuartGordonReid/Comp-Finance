@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8160abd-1fb5-4b1b-b606-4ac8fa86cb81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/AbstractNode.py" afterPath="$PROJECT_DIR$/Collections/AbstractNode.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/Cigar.py" afterPath="$PROJECT_DIR$/Functions/Cigar.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/Function.py" afterPath="$PROJECT_DIR$/Functions/Function.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/Optimizer.py" afterPath="$PROJECT_DIR$/Optimizers/Optimizer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" afterPath="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Queue.py" afterPath="$PROJECT_DIR$/Collections/Queue.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Comp-Finance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +58,7 @@
       <file leaf-file-name="ParticleSwarm.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="0" selection-start="4620" selection-end="4620" vertical-scroll-proportion="0.64705884" vertical-offset="1656" max-vertical-offset="2322">
+            <state line="43" column="55" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.47058824" vertical-offset="486" max-vertical-offset="2340">
               <folding />
             </state>
           </provider>
@@ -110,7 +105,7 @@
       <file leaf-file-name="Cigar.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="74" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="34" column="45" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
@@ -912,14 +907,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="74" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="34" column="45" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="4620" selection-end="4620" vertical-scroll-proportion="0.64705884" vertical-offset="1656" max-vertical-offset="2322">
+        <state line="43" column="55" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.47058824" vertical-offset="486" max-vertical-offset="2340">
           <folding />
         </state>
       </provider>

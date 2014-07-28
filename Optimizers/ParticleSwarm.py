@@ -1,4 +1,4 @@
-from Functions.Cigar import Cigar
+
 
 __author__ = 'Stuart Gordon Reid'
 __email__ = 'stuartgordonreid@gmail.com'
@@ -10,8 +10,10 @@ File description
 
 from Functions.Function import Function
 from Optimizers.Optimizer import Optimizer
-from Optimizers.Optimizer import Solution
+from Optimizers.Solution import Solution
+from Optimizers.BrownianSolution import BrownianSolution
 from Collections.AbstractNode import AbstractNode
+from Functions.Cigar import Cigar
 import random
 
 
@@ -25,11 +27,12 @@ class ParticleSwarm(Optimizer):
         Initialization method for the Particle Swarm Optimizer
         :param problem: the problem being optimized
         :param parameters: 0 = Inertia, 1 = Cognitive Component (C1), 2 = Social Component (C2), 3 = Swarm Size
+        4 = Use Brownian Particle True / False
         """
         assert isinstance(problem, Function)
         #Don't ask me why, http://effbot.org/zone/default-values.htm
         if parameters is None:
-            parameters = [0.729844, 1.496180, 1.496180, 50]
+            parameters = [0.729844, 1.496180, 1.496180, 50, True]
         super(ParticleSwarm, self).__init__(problem, parameters)
 
         #Create swarm
@@ -70,6 +73,12 @@ class ParticleSwarm(Optimizer):
                 if particle.solution != global_best:
                     particle.update_velocity(global_best)
                     particle.update_solution()
+                else:
+                    if self.parameters[4]:
+                        brownian_solution = BrownianSolution(particle.solution, self.problem)
+                        brownian_solution.update_solution()
+                        particle.solution = brownian_solution.solution
+                        pass
         return global_best
 
 
@@ -116,7 +125,7 @@ class Particle(Solution, AbstractNode):
 
 
 def pso_test():
-    problem = Cigar(50, 25, -25)
+    problem = Cigar(300, 200, -200)
     pso = ParticleSwarm(problem)
     pso.optimize()
 

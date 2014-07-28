@@ -1,3 +1,5 @@
+
+
 __author__ = 'Stuart Gordon Reid'
 __email__ = 'stuartgordonreid@gmail.com'
 __website__ = 'http://www.stuartreid.co.za'
@@ -8,7 +10,7 @@ which can be found here: http://www-optima.amp.i.kyoto-u.ac.jp/member/student/he
 """
 
 import abc
-from Optimizers.Optimizer import Solution
+import Optimizers
 
 
 class Function(object):
@@ -36,5 +38,5 @@ class Function(object):
         This method should be overloaded and used to evaluate a candidate solution to the problem
         :param candidate: the candidate solution to the problem
         """
-        assert isinstance(candidate, Solution)
+        assert isinstance(candidate, Optimizers.Solution)
         return

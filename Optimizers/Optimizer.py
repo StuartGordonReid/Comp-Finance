@@ -8,7 +8,7 @@ File description
 
 import abc
 import numpy as np
-from Functions import Function
+import Functions
 
 
 class Optimizer(object):
@@ -39,7 +39,7 @@ class Optimizer(object):
         This is the generic optimization method to be overloaded by each optimizer
         :param candidate:
         """
-        assert isinstance(self.problem, Function)
+        assert isinstance(self.problem, Functions.Function)
         assert isinstance(candidate, Solution)
         return self.problem.evaluate(candidate)
 

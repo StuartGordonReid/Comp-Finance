@@ -11,8 +11,8 @@ from Functions.Function import Function
 
 class Cigar(Function):
 
-    def __init__(self, dimension):
-        super(Cigar, self).__init__(dimension)
+    def __init__(self, dimension, upper_bound, lower_bound, optimization="min"):
+        super(Cigar, self).__init__(dimension, upper_bound, lower_bound, optimization)
 
     def evaluate(self, candidate):
         """

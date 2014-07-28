@@ -16,9 +16,10 @@ class Function(object):
     dimension = 0
     upper_bound = float("+inf")
     lower_bound = float("-inf")
+    optimization = "min"
 
     @abc.abstractmethod
-    def __init__(self, dimension, upper_bound=float("+inf"), lower_bound=float("-inf")):
+    def __init__(self, dimension, upper_bound=float("+inf"), lower_bound=float("-inf"), optimization="min"):
         """
         This method should be overloaded and used to initialize the problem
         :param dimension: the dimension on the problem
@@ -26,6 +27,7 @@ class Function(object):
         self.dimension = dimension
         self.upper_bound = upper_bound
         self.lower_bound = lower_bound
+        self.optimization = optimization
         return
 
     @abc.abstractmethod

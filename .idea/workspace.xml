@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8160abd-1fb5-4b1b-b606-4ac8fa86cb81" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/AbstractNode.py" afterPath="$PROJECT_DIR$/Collections/AbstractNode.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/Cigar.py" afterPath="$PROJECT_DIR$/Functions/Cigar.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/Function.py" afterPath="$PROJECT_DIR$/Functions/Function.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/Optimizer.py" afterPath="$PROJECT_DIR$/Optimizers/Optimizer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" afterPath="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/stuartreid.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/stuartreid.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Queue.py" afterPath="$PROJECT_DIR$/Collections/Queue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Comp-Finance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +34,7 @@
       <file leaf-file-name="AbstractNode.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections/AbstractNode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="0" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="2286">
+            <state line="89" column="28" selection-start="2711" selection-end="2711" vertical-scroll-proportion="0.0" vertical-offset="1358" max-vertical-offset="2412">
               <folding />
             </state>
           </provider>
@@ -40,10 +43,8 @@
       <file leaf-file-name="Tree.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections/Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="406" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="1728">
-              <folding>
-                <element signature="e#199#236#0" expanded="true" />
-              </folding>
+            <state line="21" column="23" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1710">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,7 +52,7 @@
       <file leaf-file-name="Optimizer.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Optimizers/Optimizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="0" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="1512">
+            <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512">
               <folding>
                 <element signature="e#146#156#0" expanded="true" />
               </folding>
@@ -62,10 +63,28 @@
       <file leaf-file-name="ParticleSwarm.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="59" selection-start="932" selection-end="932" vertical-scroll-proportion="0.54310346" vertical-offset="0" max-vertical-offset="1584">
+            <state line="114" column="0" selection-start="4620" selection-end="4620" vertical-scroll-proportion="0.64705884" vertical-offset="1656" max-vertical-offset="2322">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/Queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="0" selection-start="1513" selection-end="1556" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="1350">
               <folding>
-                <element signature="e#146#185#0" expanded="true" />
+                <element signature="e#220#253#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/LinkedList.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="153" column="4" selection-start="4487" selection-end="4608" vertical-scroll-proportion="0.0" vertical-offset="2250" max-vertical-offset="2916">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,12 +92,8 @@
       <file leaf-file-name="Function.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Functions/Function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="38" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-              <folding>
-                <element signature="e#368#378#0" expanded="true" />
-                <marker date="1406318241567" expanded="true" signature="446:1265" placeholder="..." />
-                <marker date="1406318241567" expanded="true" signature="674:957" placeholder="..." />
-              </folding>
+            <state line="21" column="105" selection-start="713" selection-end="716" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="810">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,6 +102,15 @@
         <entry file="file://$PROJECT_DIR$/Functions/Ackley.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="11" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cigar.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="74" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -114,15 +138,15 @@
         <option value="$PROJECT_DIR$/Visualization/Blob.py" />
         <option value="$PROJECT_DIR$/Collections/RealNode.py" />
         <option value="$PROJECT_DIR$/Collections/Node.py" />
-        <option value="$PROJECT_DIR$/Collections/Queue.py" />
         <option value="$PROJECT_DIR$/Collections/Stack.py" />
         <option value="$PROJECT_DIR$/Collections/LinkedList.py" />
-        <option value="$PROJECT_DIR$/Collections/AbstractNode.py" />
         <option value="$PROJECT_DIR$/Collections/Tree.py" />
-        <option value="$PROJECT_DIR$/Functions/Cigar.py" />
         <option value="$PROJECT_DIR$/Functions/Ackley.py" />
+        <option value="$PROJECT_DIR$/Collections/AbstractNode.py" />
+        <option value="$PROJECT_DIR$/Collections/Queue.py" />
         <option value="$PROJECT_DIR$/Optimizers/Optimizer.py" />
         <option value="$PROJECT_DIR$/Functions/Function.py" />
+        <option value="$PROJECT_DIR$/Functions/Cigar.py" />
         <option value="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
       </list>
     </option>
@@ -306,7 +330,7 @@
       <recent name="$PROJECT_DIR$/RegressionAnalysis" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Tree">
+  <component name="RunManager" selected="Python.ParticleSwarm">
     <configuration default="false" name="LinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,24 +367,6 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Collections" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Comp-Finance" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Collections/Stack.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="AbstractNode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -392,6 +398,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Comp-Finance" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Collections/Tree.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ParticleSwarm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Optimizers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Comp-Finance" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -521,17 +545,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.LinkedList" />
       <item index="1" class="java.lang.String" itemvalue="Python.Queue" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Stack" />
-      <item index="3" class="java.lang.String" itemvalue="Python.AbstractNode" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Tree" />
+      <item index="2" class="java.lang.String" itemvalue="Python.AbstractNode" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Tree" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ParticleSwarm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Tree" />
-        <item index="1" class="java.lang.String" itemvalue="Python.AbstractNode" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Stack" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Queue" />
-        <item index="4" class="java.lang.String" itemvalue="Python.LinkedList" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ParticleSwarm" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Queue" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LinkedList" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Tree" />
+        <item index="4" class="java.lang.String" itemvalue="Python.AbstractNode" />
       </list>
     </recent_temporary>
   </component>
@@ -573,21 +597,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14734562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -628,7 +652,9 @@
     <entry file="file://$PROJECT_DIR$/Collections/Queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="7" selection-start="0" selection-end="1470" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1242">
-          <folding />
+          <folding>
+            <element signature="e#220#253#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -818,9 +844,7 @@
     </entry>
     <entry file="file:///usr/lib/python2.7/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="0" selection-start="8091" selection-end="8091" vertical-scroll-proportion="0.33333334" vertical-offset="3540" max-vertical-offset="16272">
-          <folding />
-        </state>
+        <state line="215" column="0" selection-start="8091" selection-end="8091" vertical-scroll-proportion="0.33333334" vertical-offset="3540" max-vertical-offset="16272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Stack.py">
@@ -828,47 +852,29 @@
         <state line="4" column="3" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/AbstractNode.py">
+    <entry file="file://$PROJECT_DIR$/Functions/LaTeX Functions.aux">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="2745" selection-end="2745" vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="2286">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="928" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1710">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/LaTeX Functions.aux">
+    <entry file="file://$PROJECT_DIR$/Collections/AbstractNode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="928">
+        <state line="89" column="28" selection-start="2711" selection-end="2711" vertical-scroll-proportion="0.0" vertical-offset="1142" max-vertical-offset="2412">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/LinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="0" selection-start="4004" selection-end="4030" vertical-scroll-proportion="0.49568966" vertical-offset="1988" max-vertical-offset="2916">
+        <state line="153" column="4" selection-start="4487" selection-end="4608" vertical-scroll-proportion="0.0" vertical-offset="2250" max-vertical-offset="2916">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/Queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="652" selection-end="652" vertical-scroll-proportion="0.42672414" vertical-offset="126" max-vertical-offset="1242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="0" selection-end="707" vertical-scroll-proportion="0.23275863" vertical-offset="0" max-vertical-offset="928">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="406" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="1728">
-          <folding>
-            <element signature="e#199#236#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,32 +885,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Function.py">
+    <entry file="file://$PROJECT_DIR$/Collections/Queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+        <state line="68" column="0" selection-start="1513" selection-end="1556" vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="1350">
           <folding>
-            <element signature="e#368#378#0" expanded="true" />
-            <marker date="1406318241567" expanded="true" signature="446:1265" placeholder="..." />
-            <marker date="1406318241567" expanded="true" signature="674:957" placeholder="..." />
+            <element signature="e#220#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Optimizers/Optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="1512">
+        <state line="11" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1512">
           <folding>
             <element signature="e#146#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="105" selection-start="713" selection-end="716" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="74" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="59" selection-start="932" selection-end="932" vertical-scroll-proportion="0.54310346" vertical-offset="0" max-vertical-offset="1584">
-          <folding>
-            <element signature="e#146#185#0" expanded="true" />
-          </folding>
+        <state line="114" column="0" selection-start="4620" selection-end="4620" vertical-scroll-proportion="0.64705884" vertical-offset="1656" max-vertical-offset="2322">
+          <folding />
         </state>
       </provider>
     </entry>

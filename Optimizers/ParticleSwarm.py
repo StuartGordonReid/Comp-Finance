@@ -1,3 +1,5 @@
+from Functions.Cigar import Cigar
+
 __author__ = 'Stuart Gordon Reid'
 __email__ = 'stuartgordonreid@gmail.com'
 __website__ = 'http://www.stuartreid.co.za'
@@ -9,6 +11,7 @@ File description
 from Functions.Function import Function
 from Optimizers.Optimizer import Optimizer
 from Optimizers.Optimizer import Solution
+from Collections.AbstractNode import AbstractNode
 import random
 
 
@@ -35,13 +38,41 @@ class ParticleSwarm(Optimizer):
         for i in range(parameters[3]):
             velocities = [0] * problem.dimension
             random_solution = random.sample(xrange(problem.lower_bound, problem.upper_bound), problem.dimension)
-            self.swarm[i] = Particle(random_solution, random_solution, velocities)
+            self.swarm.append(Particle(random_solution, random_solution, velocities))
 
     def optimize(self, iterations=1000, stopping=True):
-        pass
+        #Initialize container variables for global best & fitness
+        global_best = None
+        if self.problem.optimization is "min":
+            global_best_fitness = float("+inf")
+        elif self.problem.optimization is "max":
+            global_best_fitness = float("+inf")
+
+        #Actual particle swarm optimization
+        for i in range(iterations):
+            #Get the global best particle in the swarm (best of personal bests)
+            for particle in self.swarm:
+                particle_fitness = self.problem.evaluate(particle.best_solution)
+                #Check the type of the problem min or max
+                if self.problem.optimization is "min":
+                    if particle_fitness < global_best_fitness:
+                        global_best = particle.solution
+                        global_best_fitness = particle_fitness
+                elif self.problem.optimization is "max":
+                    if particle_fitness > global_best_fitness:
+                        global_best = particle.solution
+                        global_best_fitness = particle_fitness
+
+            #Update each particle in the swarm
+            print "Fitness at ", i, " is ", "{0:.15f}".format(global_best_fitness)
+            for particle in self.swarm:
+                if particle.solution != global_best:
+                    particle.update_velocity(global_best)
+                    particle.update_solution()
+        return global_best
 
 
-class Particle(Solution):
+class Particle(Solution, AbstractNode):
     """
     This class is an implementation of the Particle used in a PSO. Particle updates consist of two steps, calculating
     the new velocities and updating them, then calculating the new position by adding the velocities to the position
@@ -81,3 +112,13 @@ class Particle(Solution):
         for i in range(len(self.solution)):
             self.solution[i] = self.solution[i] + self.velocity[i]
         return
+
+
+def pso_test():
+    problem = Cigar(50, 100, -100)
+    pso = ParticleSwarm(problem)
+    pso.optimize()
+
+
+if __name__ == "__main__":
+    pso_test()

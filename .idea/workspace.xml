@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bddb52f-9f03-4c32-9cf5-0afe045c2cae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Optimizers/GeneticAlgorithm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classifiers/GeneticProgramming.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Optimizers/StrategyCrossover.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Optimizers/StrategyMutation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Optimizers/StrategySelection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classifiers/__init__.py" />
+      <change type="MOVED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\Ackley.py" afterPath="$PROJECT_DIR$/Problems/Ackley.py" />
+      <change type="MOVED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\Cigar.py" afterPath="$PROJECT_DIR$/Problems/Cigar.py" />
+      <change type="MOVED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\Function.py" afterPath="$PROJECT_DIR$/Problems/Problem.py" />
+      <change type="MOVED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\LaTeX Functions.aux" afterPath="$PROJECT_DIR$/Problems/LaTeX Functions.aux" />
+      <change type="MOVED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\LaTeX Functions.pdf" afterPath="$PROJECT_DIR$/Problems/LaTeX Functions.pdf" />
+      <change type="MOVED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\LaTeX Functions.synctex.gz" afterPath="$PROJECT_DIR$/Problems/LaTeX Functions.synctex.gz" />
+      <change type="MOVED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\LaTeX Functions.tex" afterPath="$PROJECT_DIR$/Problems/LaTeX Functions.tex" />
+      <change type="MOVED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\__init__.py" afterPath="$PROJECT_DIR$/Problems/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/BrownianSolution.py" afterPath="$PROJECT_DIR$/Optimizers/BrownianSolution.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/Optimizer.py" afterPath="$PROJECT_DIR$/Optimizers/Optimizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" afterPath="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/QuandlController.py" afterPath="$PROJECT_DIR$/Data/QuandlController.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RegressionAnalysis/RegressionController.py" afterPath="$PROJECT_DIR$/RegressionAnalysis/RegressionController.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/Solution.py" afterPath="$PROJECT_DIR$/Optimizers/Solution.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/stuartreid.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/stuartreid.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Comp-Finance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,92 +40,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Solution.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Optimizers/Solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="573" max-vertical-offset="1071">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ParticleSwarm.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="764" max-vertical-offset="2261">
-              <caret line="126" column="15" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="15" />
+            <state vertical-scroll-proportion="-4.75" vertical-offset="394" max-vertical-offset="2159">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Function.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functions/Function.py">
+      <file leaf-file-name="BrownianSolution.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Optimizers/BrownianSolution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="850">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cigar.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
+      <file leaf-file-name="Problem.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problems/Problem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="833">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="799">
+              <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cigar.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problems/Cigar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44878048" vertical-offset="139" max-vertical-offset="833">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Ackley.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Functions/Ackley.py">
+        <entry file="file://$PROJECT_DIR$/Problems/Ackley.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneticProgramming.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifiers/GeneticProgramming.py">
+      <file leaf-file-name="Optimizer.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Optimizers/Optimizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="850">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneticAlgorithm.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Optimizers/GeneticAlgorithm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategySelection.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Optimizers/StrategySelection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56478405" vertical-offset="0" max-vertical-offset="646">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategyCrossover.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Optimizers/StrategyCrossover.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrategyMutation.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Optimizers/StrategyMutation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding>
+                <element signature="e#146#156#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,13 +125,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Optimizers/Optimizer.py" />
         <option value="$PROJECT_DIR$/Classifiers/GeneticProgramming.py" />
         <option value="$PROJECT_DIR$/Optimizers/GeneticAlgorithm.py" />
         <option value="$PROJECT_DIR$/Optimizers/SelectionStrategies.py" />
         <option value="$PROJECT_DIR$/Optimizers/StrategyCrossover.py" />
         <option value="$PROJECT_DIR$/Optimizers/StrategyMutation.py" />
         <option value="$PROJECT_DIR$/Optimizers/StrategySelection.py" />
+        <option value="$PROJECT_DIR$/Data/QuandlController.py" />
+        <option value="$PROJECT_DIR$/RegressionAnalysis/RegressionController.py" />
+        <option value="$PROJECT_DIR$/Problems/Problem.py" />
+        <option value="$PROJECT_DIR$/Problems/Ackley.py" />
+        <option value="$PROJECT_DIR$/Optimizers/__init__.py" />
+        <option value="$PROJECT_DIR$/Optimizers/Optimizer.py" />
+        <option value="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
+        <option value="$PROJECT_DIR$/Optimizers/BrownianSolution.py" />
+        <option value="$PROJECT_DIR$/Optimizers/Solution.py" />
+        <option value="$PROJECT_DIR$/Problems/Cigar.py" />
       </list>
     </option>
   </component>
@@ -233,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Optimizers" />
+              <option name="myItemId" value="Problems" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,7 +247,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Functions" />
+              <option name="myItemId" value="Optimizers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,6 +319,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Comp-Finance" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BrownianSolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Optimizers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Comp-Finance" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Optimizers/BrownianSolution.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -445,12 +463,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.ParticleSwarm" />
+      <item index="1" class="java.lang.String" itemvalue="Python.BrownianSolution" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Python.ParticleSwarm" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BrownianSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +495,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -506,46 +526,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Optimizers/Optimizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0336" vertical-offset="276" max-vertical-offset="901">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="764" max-vertical-offset="2261">
-          <caret line="126" column="15" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Cigar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="833">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Ackley.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classifiers/GeneticProgramming.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="850">
@@ -564,7 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Optimizers/StrategyCrossover.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+        <state vertical-scroll-proportion="0.5712" vertical-offset="0" max-vertical-offset="646">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
         </state>
@@ -572,7 +552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Optimizers/StrategyMutation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+        <state vertical-scroll-proportion="0.5984" vertical-offset="0" max-vertical-offset="625">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
@@ -580,8 +560,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Optimizers/StrategySelection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56478405" vertical-offset="0" max-vertical-offset="646">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/QuandlController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Visualization/SimplePlotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.544" vertical-offset="0" max-vertical-offset="625">
+          <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegressionAnalysis/RegressionController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4624" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Ackley.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimizers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2176" vertical-offset="0" max-vertical-offset="625">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimizers/Optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#146#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="799">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75" vertical-offset="394" max-vertical-offset="2159">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimizers/BrownianSolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="850">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimizers/Solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="573" max-vertical-offset="1071">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/Cigar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44878048" vertical-offset="139" max-vertical-offset="833">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding />
         </state>
       </provider>

@@ -11,8 +11,6 @@ class RegressionSettings():
     * exponent:int - when equal to one this is a straight line, when >1 this is a curve
     * confidence:boolean - specifies whether confidence lines should be calculated and plotted
     """
-    exponent = 1
-    confidence = False
 
     def __init__(self, exponent=1, confidence=False):
         """
@@ -28,13 +26,6 @@ class RegressionAnalysis():
     This class contain the logic for calculating the regression analysis given a Quandl data-set name, a QuandlSettings
     object, and a StatsModelsSettings object. The resulting regression analysis is returned.
     """
-    color = 'r'
-    dates = []
-    prices = []
-    data_set = ""
-    regression = None
-    upper = None
-    lower = None
 
     def __init__(self, quandl_downloader, statsmodels_settings, color='r'):
         """

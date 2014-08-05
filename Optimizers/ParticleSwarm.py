@@ -115,7 +115,7 @@ class Particle(Solution, AbstractNode):
 def pso_test():
     problem = Cigar(300, 200, -200)
     pso = ParticleSwarm(problem)
-    pso.optimize(100)
+    pso.optimize()
 
 
 if __name__ == "__main__":

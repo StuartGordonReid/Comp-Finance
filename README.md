@@ -1,26 +1,21 @@
 Comp-Finance
 ============
 
-This repository in a mix of existing Python-based tools for Computational Finance and custom developed classes. It is related to the Computational Finance blog written by Stuart Reid (www.stuartreid.co.za/blog).
+A set of Python tools for Computational Finance, currently in Gamma mode (i.e. before Beta). Current features include,
 
-Current Features
-----------------
+* Some useful data-structure collections
+* Quandl integration for financial data
+* StatsModels linear regression models
+* Basic Particle Swarm Optimization
 
-* Integration with Quandl for financial datasets - Quandl
-* Simple linear regression analysis - StatsModels
+Comp-Finance makes use of existing Python packages including,
 
+* Python StatsModels
+* SciPy, Numpy, and Pandas
 
-Planned Features
-----------------
+A number of features have been planned including,
 
-* Multiple linear regression - StatsModels
-* Complex non-linear regression - StatsModels
-* ARMA time series modelling - StatsModels
-* Genetic programming for regression - Custom Development
-* Supervised neural networks - PyBrain and Neurolab
-* Unsupervised neural networks - PyBrain and Neurolab
-* Simulated Annealing - Custom Development
-* Particle Swarm Optimization - Custom Development
-* Genetic algorithms for trading - Custom Development
-* Gene Expression Programming for trading - Custom Development
-* Multiple strategy backtesting - Zipline (Quantopian.com)
+* OpenCl integration for GPGPU computing
+* More computational Intelligence algorithms
+* Time-series modelling and forecasting
+* Portfolio Construction and Optimization

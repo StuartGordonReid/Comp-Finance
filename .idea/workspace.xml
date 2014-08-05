@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bddb52f-9f03-4c32-9cf5-0afe045c2cae" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\Ackley.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\Cigar.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\Function.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\LaTeX Functions.aux" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\LaTeX Functions.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\LaTeX Functions.synctex.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\LaTeX Functions.tex" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\stuartreid\Documents\GitHub\Comp-Finance\Functions\__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/GeneticAlgorithm.py" afterPath="$PROJECT_DIR$/Optimizers/GeneticAlgorithm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classifiers/GeneticProgramming.py" afterPath="$PROJECT_DIR$/Classifiers/GeneticProgramming.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" afterPath="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/StrategyCrossover.py" afterPath="$PROJECT_DIR$/Optimizers/StrategyCrossover.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/StrategyMutation.py" afterPath="$PROJECT_DIR$/Optimizers/StrategyMutation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/StrategySelection.py" afterPath="$PROJECT_DIR$/Optimizers/StrategySelection.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Comp-Finance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StrategySelection.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StrategySelection.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Optimizers/StrategySelection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43814433" vertical-offset="0" max-vertical-offset="748">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
               <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7886598" vertical-offset="0" max-vertical-offset="459">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -152,6 +148,7 @@
         <option value="$PROJECT_DIR$/Optimizers/StrategyCrossover.py" />
         <option value="$PROJECT_DIR$/Optimizers/StrategyMutation.py" />
         <option value="$PROJECT_DIR$/Optimizers/StrategySelection.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -499,7 +496,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -727,8 +724,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Optimizers/StrategySelection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43814433" vertical-offset="0" max-vertical-offset="748">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7886598" vertical-offset="0" max-vertical-offset="459">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding />
         </state>
       </provider>

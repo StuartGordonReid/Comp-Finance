@@ -1,3 +1,4 @@
+
 __author__ = 'Stuart Gordon Reid'
 __email__ = 'stuartgordonreid@gmail.com'
 __website__ = 'http://www.stuartreid.co.za'
@@ -7,6 +8,7 @@ This file contains an implementation of the Queue data structure which uses a Li
 """
 
 from LinkedList import LinkedList
+from AbstractNode import AbstractNode
 
 
 class Queue():
@@ -31,8 +33,8 @@ class Queue():
             return None
 
 
-if __name__ == "__main__":
-    # Testing method
+def queue_test():
+    # Testing method for Queue
     my_queue = Queue()
 
     my_data = my_queue.pop()
@@ -62,3 +64,7 @@ if __name__ == "__main__":
     my_data = my_queue.pop()
     assert my_data is "ABC"
     print "Passed seventh test - pop"
+
+
+if __name__ == "__main__":
+    queue_test()

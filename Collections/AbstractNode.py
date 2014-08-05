@@ -18,6 +18,7 @@ class AbstractNode:
     __data__ = None
     __size__ = 0
     __count__ = 0
+    __priority__ = 0
 
     def __init__(self, data=None):
         self.__children__ = []
@@ -96,6 +97,12 @@ class AbstractNode:
 
     def get_count(self):
         return self.__count__ + 1
+
+    def get_priority(self):
+        return self.__priority__
+
+    def set_priority(self, priority):
+        self.__priority__ = priority
 
 
 if __name__ == "__main__":

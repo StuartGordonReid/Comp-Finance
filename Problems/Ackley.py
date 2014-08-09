@@ -6,10 +6,10 @@ __website__ = 'http://www.stuartreid.co.za'
 http://www-optima.amp.i.kyoto-u.ac.jp/member/student/hedar/Hedar_files/TestGO_files/Page295.htm
 """
 
-from Functions.Function import Function
+from Problems.Problem import Problem
 
 
-class Ackley(Function):
+class Ackley(Problem):
 
     def __init__(self, dimension):
         super(Ackley, self).__init__(dimension)

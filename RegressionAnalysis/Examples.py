@@ -1,9 +1,9 @@
 __author__ = 'stuartreid'
 
-from RegressionController import RegressionAnalysis
-from RegressionController import RegressionSettings
-from Data.QuandlController import QuandlDownloader
-from Data.QuandlController import QuandlSettings
+from LinearRegression import RegressionAnalysis
+from LinearRegression import RegressionSettings
+from Data.QuandlDownloader import QuandlDownloader
+from Data.QuandlDownloader import QuandlSettings
 from Visualization import SimplePlotter
 
 

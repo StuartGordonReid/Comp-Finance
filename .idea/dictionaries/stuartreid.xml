@@ -2,11 +2,16 @@
   <dictionary name="stuartreid">
     <words>
       <w>ackley</w>
+      <w>analysisbig</w>
+      <w>bitonic</w>
       <w>egin</w>
       <w>extbf</w>
       <w>extrm</w>
+      <w>matplotlib</w>
       <w>metaclass</w>
+      <w>mutator</w>
       <w>pythonic</w>
+      <w>quandl</w>
     </words>
   </dictionary>
 </component>

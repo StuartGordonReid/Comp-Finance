@@ -6,10 +6,10 @@ __website__ = 'http://www.stuartreid.co.za'
 File description
 """
 
-from Functions.Function import Function
+from Problems.Problem import Problem
 
 
-class Cigar(Function):
+class Cigar(Problem):
 
     def __init__(self, dimension, upper_bound, lower_bound, optimization="min"):
         super(Cigar, self).__init__(dimension, upper_bound, lower_bound, optimization)

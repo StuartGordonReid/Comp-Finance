@@ -1,4 +1,4 @@
-
+from Problems.Problem import Problem
 
 __author__ = 'Stuart Gordon Reid'
 __email__ = 'stuartgordonreid@gmail.com'
@@ -8,13 +8,13 @@ __website__ = 'http://www.stuartreid.co.za'
 File description
 """
 
-from Functions.Function import Function
+import random
+
 from Optimizers.Optimizer import Optimizer
 from Optimizers.Solution import Solution
 from Optimizers.BrownianSolution import BrownianSolution
 from Collections.AbstractNode import AbstractNode
-from Functions.Cigar import Cigar
-import random
+from Problems.Cigar import Cigar
 
 
 class ParticleSwarm(Optimizer):
@@ -29,10 +29,10 @@ class ParticleSwarm(Optimizer):
         :param parameters: 0 = Inertia, 1 = Cognitive Component (C1), 2 = Social Component (C2), 3 = Swarm Size
         4 = Use Brownian Particle True / False
         """
-        assert isinstance(problem, Function)
+        assert isinstance(problem, Problem)
         #Don't ask me why, http://effbot.org/zone/default-values.htm
         if parameters is None:
-            parameters = [0.729844, 1.496180, 1.496180, 50, True]
+            parameters = [0.729844, 1.496180, 1.496180, 50, False]
         super(ParticleSwarm, self).__init__(problem, parameters)
 
         #Create swarm
@@ -42,35 +42,22 @@ class ParticleSwarm(Optimizer):
             velocities = [0] * problem.dimension
             #ToDo: there are some issues with this Pythonic code sigh!
             random_solution = random.sample(xrange(problem.lower_bound, problem.upper_bound), problem.dimension)
-            self.swarm.append(Particle(random_solution, random_solution, velocities))
+            self.swarm.append(Particle(problem, random_solution, random_solution, velocities))
 
     def optimize(self, iterations=1000, stopping=True):
         #Initialize container variables for global best & fitness
-        global_best = None
-        if self.problem.optimization is "min":
-            global_best_fitness = float("+inf")
-        elif self.problem.optimization is "max":
-            global_best_fitness = float("+inf")
-
-        #Actual particle swarm optimization
-        for i in range(iterations):
+        global_best = self.swarm[0]
+        for i in range(1, iterations):
             #Get the global best particle in the swarm (best of personal bests)
             for particle in self.swarm:
-                particle_fitness = self.problem.evaluate(particle.best_solution)
                 #Check the type of the problem min or max
-                if self.problem.optimization is "min":
-                    if particle_fitness < global_best_fitness:
-                        global_best = particle.solution
-                        global_best_fitness = particle_fitness
-                elif self.problem.optimization is "max":
-                    if particle_fitness > global_best_fitness:
-                        global_best = particle.solution
-                        global_best_fitness = particle_fitness
+                if particle > global_best:
+                    global_best = particle
 
             #Update each particle in the swarm
-            print "Fitness at ", i, " is ", "{0:.15f}".format(global_best_fitness)
+            print "Fitness at ", i, " is ", "{0:.15f}".format(global_best.evaluate())
             for particle in self.swarm:
-                if particle.solution != global_best:
+                if particle.solution != global_best.solution:
                     particle.update_velocity(global_best)
                     particle.update_solution()
                 else:
@@ -78,7 +65,6 @@ class ParticleSwarm(Optimizer):
                         brownian_solution = BrownianSolution(particle.solution, self.problem)
                         brownian_solution.update_solution()
                         particle.solution = brownian_solution.solution
-                        pass
         return global_best
 
 
@@ -88,9 +74,10 @@ class Particle(Solution, AbstractNode):
     the new velocities and updating them, then calculating the new position by adding the velocities to the position
     """
 
-    def __init__(self, solution, best_solution, velocity):
+    def __init__(self, problem, solution, best_solution, velocity):
         """
         Overloaded solution object for the Particle Swarm Optimizer
+        :type best_solution: object
         :param solution:
         :param velocity:
         :param best_solution:
@@ -98,12 +85,13 @@ class Particle(Solution, AbstractNode):
         self.velocity = velocity
         self.best_solution = best_solution
         #Updates the solution numpy array in super
-        super(Particle, self).__init__(solution)
+        super(Particle, self).__init__(solution, problem)
 
-    def update_velocity(self, global_best_solution, parameters=None):
+    def update_velocity(self, global_best, parameters=None):
         """
         This method updates the Particles velocity w.r.t the global best and control parameters
         """
+        global_best_solution = global_best.solution
         if parameters is None:
             parameters = [0.729844, 1.496180, 1.496180]
 

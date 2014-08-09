@@ -7,21 +7,16 @@ import numpy as np
 class QuandlSettings():
     """
     This class contains settings for the quandl integration package, settings include,
-    * rows:int - specifies the amount of historical data to extract in [frequency]
-    * column:int - specifies the column in the data-set to use for the regression analysis
-    * frequency:String - select between ("daily"|weekly"|"monthly"|"quarterly"|"annual")
-    * transformation:String - select the numerical transformation ("diff"|"rdiff"|"normalize"|"cumul")
-    * order:String - select order of data between ("asc"|"desc")
     """
-    rows = 0
-    column = 1
-    frequency = "weekly"
-    transformation = "normalize"
-    order = "desc"
 
     def __init__(self, rows, column, frequency="weekly", transformation="normalize", order="desc"):
         """
         This initialization method constructs a new QuandlSettings object
+        :param rows: the number of rows of data to download from Quandl
+        :param column: which column of the downloaded data to extract
+        :param frequency: daily, weekly, monthly, quarterly, yearly
+        :param transformation: normalize, rdiff, etc.
+        :param order: which order to sort into w.r.t date
         """
         self.rows = rows
         self.column = column
@@ -38,17 +33,16 @@ class QuandlDownloader():
     * The name of a Quandl data set to be downloaded
     """
 
-    quandl_data_set = np.array
-    quandl_data_set_name = ""
-    quandl_settings = QuandlSettings(500, 1)
-    quandl_dates = []
-    quandl_data = []
-    fetched = False
-    # ^ This is a default quandl settings object
-
     def __init__(self, quandl_data_set_name, quandl_settings=QuandlSettings(500, 1)):
-        self.quandl_data_set_name = quandl_data_set_name
+        """
+        Initialization method for the Quandl Downloader object
+        :param quandl_data_set_name: this is a string which contains the name of the data set to download
+        :param quandl_settings: this is a setting object
+        """
+        self.fetched = False
+        self.quandl_data_set = np.array
         self.quandl_settings = quandl_settings
+        self.quandl_data_set_name = quandl_data_set_name
         self.quandl_dates, self.quandl_data = self.get_quandl_data()
         pass
 

@@ -13,7 +13,7 @@ import abc
 import Optimizers
 
 
-class Function(object):
+class Problem(object):
     __metaclass__ = abc.ABCMeta
     dimension = 0
     upper_bound = float("+inf")

@@ -28,7 +28,8 @@ class HeapSorter(Sorter):
             self.sift_down(partition, 0, end - 1)
         return partition
 
-    def sift_down(self, partition, start, end):
+    @staticmethod
+    def sift_down(partition, start, end):
         root = start
         while True:
             child = root * 2 + 1

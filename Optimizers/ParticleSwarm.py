@@ -32,7 +32,7 @@ class ParticleSwarm(Optimizer):
         assert isinstance(problem, Problem)
         #Don't ask me why, http://effbot.org/zone/default-values.htm
         if parameters is None:
-            parameters = [0.729844, 1.496180, 1.496180, 50, False]
+            parameters = [0.729844, 1.496180, 1.496180, 50, True]
         super(ParticleSwarm, self).__init__(problem, parameters)
 
         #Create swarm

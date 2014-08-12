@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bddb52f-9f03-4c32-9cf5-0afe045c2cae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Comp-Finance.iml" afterPath="$PROJECT_DIR$/.idea/Comp-Finance.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorters/HeapSorter.py" afterPath="$PROJECT_DIR$/Sorters/HeapSorter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interface/Overview.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interface/Window.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interface/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sorters/BitonicSorter.py" afterPath="$PROJECT_DIR$/Sorters/BitonicSorter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" afterPath="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Comp-Finance.iws" />
@@ -27,67 +30,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ParticleSwarm.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
+      <file leaf-file-name="BitonicSorter.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sorters/BitonicSorter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2286">
+            <state line="13" column="7" selection-start="232" selection-end="232" vertical-scroll-proportion="0.34718102" vertical-offset="0" max-vertical-offset="1746">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrownianSolution.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Optimizers/BrownianSolution.py">
+      <file leaf-file-name="Window.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interface/Window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoogleDownloader.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/GoogleDownloader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSorter.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sorters/QuickSorter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeapSorter.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sorters/HeapSorter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="0.18534483" vertical-offset="170" max-vertical-offset="1098">
+            <state line="49" column="0" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1098">
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#359#380#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuandlDownloader.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/QuandlDownloader.py">
+      <file leaf-file-name="Overview.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Interface/Overview.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1278">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BitonicSorter.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sorters/BitonicSorter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1674">
-              <folding />
+            <state line="11" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+              <folding>
+                <element signature="e#146#167#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,19 +93,23 @@
         <option value="$PROJECT_DIR$/Indicators/Indicator.py" />
         <option value="$PROJECT_DIR$/Sorters/BitonicSort.py" />
         <option value="$PROJECT_DIR$/Sorters/Sorter.py" />
-        <option value="$PROJECT_DIR$/Sorters/BitonicSorter.py" />
-        <option value="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
         <option value="$PROJECT_DIR$/Data/GoogleFinanceController.py" />
         <option value="$PROJECT_DIR$/Data/GoogleDownloader.py" />
         <option value="$PROJECT_DIR$/Sorters/QuickSorter.py" />
         <option value="$PROJECT_DIR$/Sorters/HeapSort.py" />
         <option value="$PROJECT_DIR$/Sorters/HeapSorter.py" />
+        <option value="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
+        <option value="$PROJECT_DIR$/Sorters/BitonicSorter.py" />
+        <option value="$PROJECT_DIR$/Interface/TkinterTest.py" />
+        <option value="$PROJECT_DIR$/Interface/Frame.py" />
+        <option value="$PROJECT_DIR$/Interface/Window.py" />
+        <option value="$PROJECT_DIR$/Interface/Overview.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1869" />
-    <option name="y" value="-4" />
+    <option name="x" value="-3309" />
+    <option name="y" value="1076" />
     <option name="width" value="1869" />
     <option name="height" value="1084" />
   </component>
@@ -166,7 +139,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,6 +237,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Interface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Comp-Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Comp-Finance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Indicators" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -313,6 +299,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,7 +315,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.HeapSorter">
+  <component name="RunManager" selected="Python.Window">
     <configuration default="false" name="ParticleSwarm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,24 +329,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Comp-Finance" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Optimizers/ParticleSwarm.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BrownianSolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Optimizers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Comp-Finance" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Optimizers/BrownianSolution.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -383,37 +352,55 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="QuickSorter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="TkinterTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorters" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interface" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Comp-Finance" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorters/QuickSorter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interface/TkinterTest.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="HeapSorter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Frame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sorters" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interface" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Comp-Finance" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorters/HeapSorter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interface/Frame.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Window" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interface" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Comp-Finance" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interface/Window.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -542,24 +529,39 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.ParticleSwarm" />
-      <item index="1" class="java.lang.String" itemvalue="Python.BrownianSolution" />
-      <item index="2" class="java.lang.String" itemvalue="Python.BitonicSorter" />
-      <item index="3" class="java.lang.String" itemvalue="Python.QuickSorter" />
-      <item index="4" class="java.lang.String" itemvalue="Python.HeapSorter" />
+      <item index="1" class="java.lang.String" itemvalue="Python.BitonicSorter" />
+      <item index="2" class="java.lang.String" itemvalue="Python.TkinterTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Frame" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Window" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.HeapSorter" />
-        <item index="1" class="java.lang.String" itemvalue="Python.QuickSorter" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ParticleSwarm" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Window" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Frame" />
+        <item index="2" class="java.lang.String" itemvalue="Python.TkinterTest" />
         <item index="3" class="java.lang.String" itemvalue="Python.BitonicSorter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.BrownianSolution" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ParticleSwarm" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -570,18 +572,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1869" y="-4" width="1869" height="1084" extended-state="6" />
+    <frame x="-3309" y="1076" width="1869" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22806068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115926325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32721713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2651357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -613,6 +615,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="100" selection-start="1440" selection-end="1540" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="2286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorters/BitonicSorter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="13" selection-start="2134" selection-end="2134" vertical-scroll-proportion="0.0" vertical-offset="861" max-vertical-offset="1746">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2502">
           <folding />
         </state>
@@ -620,39 +643,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Optimizers/BrownianSolution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/GoogleDownloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorters/QuickSorter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorters/HeapSorter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/QuandlDownloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1278">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1278" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorters/BitonicSorter.py">
@@ -789,52 +800,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Optimizers/BrownianSolution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/GoogleDownloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/QuandlDownloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorters/QuickSorter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorters/HeapSorter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="44" selection-start="690" selection-end="690" vertical-scroll-proportion="0.42672414" vertical-offset="0" max-vertical-offset="1098" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="11" selection-start="912" selection-end="912" vertical-scroll-proportion="0.24064171" vertical-offset="360" max-vertical-offset="2286">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/lib-tk/Tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2057" column="0" selection-start="84058" selection-end="84058" vertical-scroll-proportion="0.3323442" vertical-offset="36802" max-vertical-offset="68778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/lib-tk/ttk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="750" column="0" selection-start="26494" selection-end="26494" vertical-scroll-proportion="0.3323442" vertical-offset="13258" max-vertical-offset="29394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/Overview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <folding>
+            <element signature="e#146#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/Window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1098">
+          <folding>
+            <element signature="e#359#380#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorters/BitonicSorter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state line="13" column="7" selection-start="232" selection-end="232" vertical-scroll-proportion="0.34718102" vertical-offset="0" max-vertical-offset="1746">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Optimizers/ParticleSwarm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorters/QuickSorter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorters/HeapSorter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="539" selection-end="539" vertical-scroll-proportion="0.18534483" vertical-offset="170" max-vertical-offset="1098">
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

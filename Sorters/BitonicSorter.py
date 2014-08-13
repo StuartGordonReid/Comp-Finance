@@ -8,6 +8,7 @@ __website__ = 'http://www.stuartreid.co.za'
 File description
 """
 
+import random
 
 class BitonicSorter(Sorter):
     """
@@ -77,7 +78,10 @@ class BitonicSorter(Sorter):
 
 
 def bitonic_test():
-    data = [10, 30, 11, 20, 4, 330, 21, 110]
+    #data = [10, 30, 11, 20, 4, 330, 21, 110]
+    #data = [10, 30, 40, 20, 4, 1, 21, 110]
+    #data = [10, 30, 40, 60, 55, 45, 35, 89, 92, 99, 101, 123, 115, 111, 100, 99]
+    data = random.sample(xrange(0, 100), 64)
     print "Unsorted: ", data
     sorter = BitonicSorter(data)
     sorted_data = sorter.sort()

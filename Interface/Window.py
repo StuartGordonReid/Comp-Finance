@@ -1,3 +1,5 @@
+from Interface.GridElements import GridElement, FormGridElement
+
 __author__ = 'Stuart Gordon Reid'
 __email__ = 'stuartgordonreid@gmail.com'
 __website__ = 'http://www.stuartreid.co.za'
@@ -81,48 +83,17 @@ class Window(Frame):
         note_book.pack()
 
 
-class GridElement():
-    """
-    This class contains data for grid elements
-    """
-    __metaclass__ = abc.ABCMeta
-
-    @abc.abstractmethod
-    def __init__(self, x, y, x_length, y_length, colour="black"):
-        self.x, self.y, self.colour = x, y, colour
-        self.x_length, self.y_length = x_length, y_length
-        self.canvas = None
-
-    @abc.abstractmethod
-    def add_elements(self):
-        pass
-
-
-class FormGridElement(GridElement):
-    """
-    This class contains data for grid elements
-    """
-    def __init__(self, x, y, x_length, y_length, colour="black"):
-        GridElement.__init__(self, x, y, x_length, y_length, colour)
-
-    def add_elements(self):
-        assert isinstance(self.canvas, Canvas)
-        button = Button(self.canvas, text="Quit")
-        label = Label(self.canvas, text="This is a label")
-        window_one = self.canvas.create_window(10, 10, anchor=NW, window=label)
-        window_two = self.canvas.create_window(100, 10, anchor=NW, window=button)
-
-
 def main():
     root = Tk()
     top_level = root.winfo_toplevel()
     top_level.wm_state('zoomed')
     comp_finance_window = Window(root, "Computational Finance Package")
 
-    grid_elements = [FormGridElement(0, 0, 10, 1, 'blue'),
-                     FormGridElement(0, 1, 10, 8, 'black'),
-                     FormGridElement(0, 9, 10, 1, 'blue')]
-    comp_finance_window.setup_grid(0.95, 10, 10, grid_elements)
+    grid_elements = [FormGridElement(0, 0, 2, 1, 'grey'),
+                     FormGridElement(0, 1, 2, 9, 'grey'),
+                     FormGridElement(2, 0, 8, 1, 'grey'),
+                     FormGridElement(2, 1, 8, 9, 'black')]
+    comp_finance_window.setup_grid(0.945, 10, 10, grid_elements)
 
     for element in grid_elements:
         element.add_elements()

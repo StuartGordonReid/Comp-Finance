@@ -5,13 +5,16 @@
       <w>analysisbig</w>
       <w>bitonic</w>
       <w>egin</w>
+      <w>enddate</w>
       <w>extbf</w>
       <w>extrm</w>
+      <w>iter</w>
       <w>matplotlib</w>
       <w>metaclass</w>
       <w>mutator</w>
       <w>pythonic</w>
       <w>quandl</w>
+      <w>startdate</w>
     </words>
   </dictionary>
 </component>

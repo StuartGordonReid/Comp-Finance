@@ -15,6 +15,7 @@ from Optimizers.Solution import Solution
 from Optimizers.BrownianSolution import BrownianSolution
 from Collections.AbstractNode import AbstractNode
 from Problems.Cigar import Cigar
+from operator import sub, add
 
 
 class ParticleSwarm(Optimizer):
@@ -44,7 +45,7 @@ class ParticleSwarm(Optimizer):
             random_solution = random.sample(xrange(problem.lower_bound, problem.upper_bound), problem.dimension)
             self.swarm.append(Particle(problem, random_solution, random_solution, velocities))
 
-    def optimize(self, iterations=1000, stopping=True):
+    def optimize(self, iterations=50, stopping=True, printing=1):
         #Initialize container variables for global best & fitness
         global_best = self.swarm[0]
         for i in range(1, iterations):
@@ -55,11 +56,11 @@ class ParticleSwarm(Optimizer):
                     global_best = particle
 
             #Update each particle in the swarm
-            print "Fitness at ", i, " is ", "{0:.15f}".format(global_best.evaluate())
+            if i % printing is 0:
+                print "Fitness at ", i, " is ", "{0:.15f}".format(global_best.evaluate())
             for particle in self.swarm:
                 if particle.solution != global_best.solution:
-                    particle.update_velocity(global_best)
-                    particle.update_solution()
+                    particle.update_particle(global_best, self.parameters)
                 else:
                     if self.parameters[4]:
                         brownian_solution = BrownianSolution(particle.solution, self.problem)
@@ -87,29 +88,23 @@ class Particle(Solution, AbstractNode):
         #Updates the solution numpy array in super
         super(Particle, self).__init__(solution, problem)
 
-    def update_velocity(self, global_best, parameters=None):
+    def update_particle(self, global_best, parameters=None):
         """
-        This method updates the Particles velocity w.r.t the global best and control parameters
+        This method updates the Particles velocity w.r.t the global best and control parameters and then updates the
+        particles position vector (solution to the optimization problem)
         """
         global_best_solution = global_best.solution
         if parameters is None:
             parameters = [0.729844, 1.496180, 1.496180]
 
-        #TODO: Find Pythonic way to do this
-        for i in range(len(self.solution)):
-            cognitive = parameters[1] * random.random() * (self.best_solution[i] - self.solution[i])
-            social = parameters[2] * random.random() * (global_best_solution[i] - self.solution[i])
-            self.velocity[i] = parameters[0] * self.velocity[i] + social + cognitive
-        return
+        # Calculate the velocity vector for the particle based on global best and personal best and parameters
+        w, c1r1, c2r2 = parameters[0], (parameters[1] * random.random()), (parameters[1] * random.random())
+        best_difference = [x * c1r1 for x in map(sub, self.best_solution, self.solution)]
+        global_best_difference = [x * c2r2 for x in map(sub, global_best_solution, self.solution)]
+        self.velocity = [x * w for x in map(add, self.velocity, map(add, global_best_difference, best_difference))]
 
-    def update_solution(self):
-        """
-        This method updates the Particles position in space
-        """
-        #TODO: Find Pythonic way to do this
-        for i in range(len(self.solution)):
-            self.solution[i] = self.solution[i] + self.velocity[i]
-        return
+        # Now update the solution (add velocity vector)
+        self.solution = map(add, self.solution, self.velocity)
 
 
 def pso_test():
@@ -118,5 +113,7 @@ def pso_test():
     pso.optimize()
 
 
+import profile
 if __name__ == "__main__":
-    pso_test()
+    #pso_test()
+    profile.run('pso_test()')

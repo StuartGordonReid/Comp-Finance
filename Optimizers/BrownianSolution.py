@@ -36,12 +36,11 @@ def brownian_solution_test():
     problem = Cigar(50, 25, -25)
     vector = random.sample(xrange(problem.lower_bound, problem.upper_bound), problem.dimension)
 
-    brownian_solution = BrownianSolution(vector, problem)
-    print problem.evaluate(brownian_solution.solution)
-    brownian_solution.update_solution()
-    print problem.evaluate(brownian_solution.solution)
-    brownian_solution.update_solution()
-    print problem.evaluate(brownian_solution.solution)
+    for i in xrange(0, 1000):
+        brownian_solution = BrownianSolution(vector, problem)
+        print problem.evaluate(brownian_solution.solution)
 
+
+import profile
 if __name__ == "__main__":
-    brownian_solution_test()
+    profile.run('brownian_solution_test()')
